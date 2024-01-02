@@ -15,6 +15,8 @@ import LandingPage from './chapter_09/LandingPage';
 import Attendancebook from './chapter_10/AttendanceBook';
 import SignUp from './chapter_11/SignUp';
 import Calculator from './chapter_12/Calculator';
+import ProfileCard from './chapter_13/ProfileCard';
+import DarkOrLight from './chapter_14/DarkOrLight';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // setInterval(() => {
@@ -35,7 +37,9 @@ root.render(
     {/* <LandingPage /> */}
     {/* <Attendancebook /> */}
     {/* <SignUp /> */}
-    <Calculator />
+    {/* <Calculator /> */}
+    {/* <ProfileCard /> */}
+    <DarkOrLight />
   </React.StrictMode>
 );
 
